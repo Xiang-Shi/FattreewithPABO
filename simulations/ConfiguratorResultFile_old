@@ -1,0 +1,82 @@
+<config>
+   <interface hosts="FattreewithPABO.host1" names="eth0" address="10.0.0.1" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host2" names="eth0" address="10.0.0.5" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host3" names="eth0" address="10.0.0.9" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host4" names="eth0" address="10.0.0.13" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host5" names="eth0" address="10.0.0.17" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host6" names="eth0" address="10.0.0.21" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host7" names="eth0" address="10.0.0.25" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host8" names="eth0" address="10.0.0.29" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host9" names="eth0" address="10.0.0.33" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host10" names="eth0" address="10.0.0.37" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host11" names="eth0" address="10.0.0.41" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host12" names="eth0" address="10.0.0.45" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host13" names="eth0" address="10.0.0.49" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host14" names="eth0" address="10.0.0.53" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host15" names="eth0" address="10.0.0.57" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host16" names="eth0" address="10.0.0.61" netmask="255.255.255.252" metric="2"/>
+   <multicast-group hosts="FattreewithPABO.host1" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host2" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host3" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host4" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host5" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host6" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host7" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host8" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host9" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host10" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host11" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host12" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host13" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host14" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host15" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host16" interfaces="eth0" address="224.0.0.1"/>
+   <route hosts="FattreewithPABO.host1" destination="10.0.0.0" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host1" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host1" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host2" destination="10.0.0.4" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host2" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host2" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host3" destination="10.0.0.8" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host3" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host3" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host4" destination="10.0.0.12" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host4" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host4" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host5" destination="10.0.0.16" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host5" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host5" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host6" destination="10.0.0.20" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host6" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host6" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host7" destination="10.0.0.24" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host7" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host7" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host8" destination="10.0.0.28" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host8" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host8" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host9" destination="10.0.0.32" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host9" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host9" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host10" destination="10.0.0.36" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host10" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host10" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host11" destination="10.0.0.40" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host11" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host11" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host12" destination="10.0.0.44" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host12" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host12" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host13" destination="10.0.0.48" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host13" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host13" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host14" destination="10.0.0.52" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host14" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host14" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host15" destination="10.0.0.56" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host15" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host15" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+   <route hosts="FattreewithPABO.host16" destination="10.0.0.60" netmask="255.255.255.252" gateway="*" interface="eth0" metric="2"/>
+   <route hosts="FattreewithPABO.host16" destination="10.0.0.0" netmask="255.255.255.192" gateway="*" interface="eth0" metric="0"/>
+   <route hosts="FattreewithPABO.host16" destination="127.0.0.0" netmask="255.0.0.0" gateway="*" interface="lo0" metric="1"/>
+</config>

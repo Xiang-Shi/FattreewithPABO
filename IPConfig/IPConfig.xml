@@ -1,0 +1,34 @@
+<config>
+   <interface hosts="FattreewithPABO.host1" names="eth0" address="10.0.0.1" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host2" names="eth0" address="10.0.0.5" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host3" names="eth0" address="10.0.0.9" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host4" names="eth0" address="10.0.0.13" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host5" names="eth0" address="10.0.0.17" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host6" names="eth0" address="10.0.0.21" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host7" names="eth0" address="10.0.0.25" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host8" names="eth0" address="10.0.0.29" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host9" names="eth0" address="10.0.0.33" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host10" names="eth0" address="10.0.0.37" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host11" names="eth0" address="10.0.0.41" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host12" names="eth0" address="10.0.0.45" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host13" names="eth0" address="10.0.0.49" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host14" names="eth0" address="10.0.0.53" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host15" names="eth0" address="10.0.0.57" netmask="255.255.255.252" metric="2"/>
+   <interface hosts="FattreewithPABO.host16" names="eth0" address="10.0.0.61" netmask="255.255.255.252" metric="2"/>
+   <multicast-group hosts="FattreewithPABO.host1" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host2" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host3" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host4" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host5" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host6" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host7" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host8" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host9" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host10" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host11" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host12" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host13" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host14" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host15" interfaces="eth0" address="224.0.0.1"/>
+   <multicast-group hosts="FattreewithPABO.host16" interfaces="eth0" address="224.0.0.1"/>
+</config>
